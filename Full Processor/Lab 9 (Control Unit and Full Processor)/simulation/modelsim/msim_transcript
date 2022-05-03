@@ -1,0 +1,213 @@
+# Reading pref.tcl
+# do Lab9_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Lab9.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:10 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Lab9.v 
+# -- Compiling module Lab9
+# 
+# Top level modules:
+# 	Lab9
+# End time: 19:27:10 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/ControlUnit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:10 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/ControlUnit.v 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 19:27:10 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:10 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 19:27:10 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/RAM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:10 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/RAM.v 
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# End time: 19:27:10 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/ProgramCounter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:10 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/ProgramCounter.v 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 19:27:10 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/PCID.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:10 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/PCID.v 
+# -- Compiling module PCID
+# 
+# Top level modules:
+# 	PCID
+# End time: 19:27:10 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:10 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Mux.v 
+# -- Compiling module Mux
+# 
+# Top level modules:
+# 	Mux
+# End time: 19:27:10 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Multiplexer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:11 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Multiplexer.v 
+# -- Compiling module Multiplexer
+# 
+# Top level modules:
+# 	Multiplexer
+# End time: 19:27:11 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/InstructionDecoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:11 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/InstructionDecoder.v 
+# -- Compiling module InstructionDecoder
+# 
+# Top level modules:
+# 	InstructionDecoder
+# End time: 19:27:11 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/immGen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:11 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/immGen.v 
+# -- Compiling module immGen
+# 
+# Top level modules:
+# 	immGen
+# End time: 19:27:11 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:11 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Decoder.v 
+# -- Compiling module Decoder
+# 
+# Top level modules:
+# 	Decoder
+# End time: 19:27:11 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:11 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 19:27:12 on May 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:12 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/ROM.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 19:27:12 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:12 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Register.v 
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 19:27:12 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/RegisterFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:12 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 19:27:12 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 9\ (Control\ Unit\ and\ Full\ Processor) {C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Lab9_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:12 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)" C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Lab9_testbench.v 
+# -- Compiling module Lab9_testbench
+# 
+# Top level modules:
+# 	Lab9_testbench
+# End time: 19:27:12 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  Lab9_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" Lab9_testbench 
+# Start time: 19:27:12 on May 02,2022
+# Loading work.Lab9_testbench
+# Loading work.Lab9
+# Loading work.ControlUnit
+# Loading work.Datapath
+# Loading work.PCID
+# Loading work.ProgramCounter
+# Loading work.ROM
+# Loading work.InstructionDecoder
+# Loading work.ALU
+# Loading work.Mux
+# Loading work.RegisterFile
+# Loading work.Decoder
+# Loading work.Multiplexer
+# Loading work.Register
+# Loading work.immGen
+# Loading work.RAM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUop'. The port definition is at: C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/ControlUnit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab9_testbench/DUT/CU File: C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Lab9.v Line: 27
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'fourAdder'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab9_testbench/DUT/DP/instructions/fourAdder File: C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/PCID.v Line: 27
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/PCID.v(27): [TFMPC] - Missing connection for port 'status'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'offsetAdder'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab9_testbench/DUT/DP/instructions/offsetAdder File: C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/PCID.v Line: 29
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/PCID.v(29): [TFMPC] - Missing connection for port 'status'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Lab9_testbench.v(26)
+#    Time: 145 ps  Iteration: 3  Instance: /Lab9_testbench
+# Break in Module Lab9_testbench at C:/intelFPGA_lite/Lab 9 (Control Unit and Full Processor)/Lab9_testbench.v line 26
+# End time: 19:34:14 on May 02,2022, Elapsed time: 0:07:02
+# Errors: 0, Warnings: 5
